@@ -1,0 +1,32 @@
+# Palindrone validator
+
+import collections
+
+def pelindrone_validator(e_word):
+
+    check = e_word.isnumeric()
+
+    print(check)
+
+    assert check is False, "This is a number. Please enter text values."
+
+    pd = collections.deque(e_word)
+    ee = collections.deque(e_word)
+
+    print(pd)
+    print(ee)
+
+    rev_pd = pd.reverse()
+    print(pd)
+
+    print(type(e_word))
+
+    if pd == ee:
+        print("equal")
+    else:
+        print("not equal")
+
+
+enter_word = input("Enter a word: ")
+
+pelindrone_validator(enter_word)
