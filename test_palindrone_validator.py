@@ -2,7 +2,7 @@
 
 import collections
 
-def pelindrone_validator(e_word):
+def test_pelindrone_validator(e_word):
 
     check = e_word.isnumeric()
 
@@ -29,4 +29,4 @@ def pelindrone_validator(e_word):
 
 enter_word = input("Enter a word: ")
 
-pelindrone_validator(enter_word)
+test_pelindrone_validator(enter_word)
