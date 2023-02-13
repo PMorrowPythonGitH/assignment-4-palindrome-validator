@@ -27,6 +27,6 @@ def test_pelindrone_validator(e_word):
         print("not equal")
 
 
-enter_word = input("Enter a word: ")
+enter_word = "Bye"
 
 test_pelindrone_validator(enter_word)
