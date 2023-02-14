@@ -3,7 +3,7 @@
 import collections
 import pytest
 
-@pytest_fixture
+@pytest.fixture
 def test_pelindrone_validator(e_word):
 
     check = e_word.isnumeric()
